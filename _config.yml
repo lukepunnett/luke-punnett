@@ -4,7 +4,6 @@ subtitle: Blog on Bespoke Software Craftpersonship
 email: lukepunnett@protonmail.com
 description: A blog on Software Engineering & Craftsmanship
 baseurl: "" # the subpath of your site, e.g. /blog
-url: lukepunnett.github.io
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
