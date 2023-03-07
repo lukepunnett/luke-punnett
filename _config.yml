@@ -35,7 +35,7 @@ markdown: kramdown
 
 sass:
   style: compressed
-
+permalink: pretty
 exclude:
 - "*.gemspec"
 - LICENSE.md
