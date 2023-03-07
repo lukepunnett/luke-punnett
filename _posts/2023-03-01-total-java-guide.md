@@ -61,14 +61,14 @@ Primitive variables are used to store simple values like numbers and characters.
     boolean: true or false value
 
 Primitive variables are declared using a data type keyword, followed by the variable name, and optionally, an initial value. For example, to declare an integer variable named "count" with an initial value of 0, you would write:
-```
+```java
 int count = 0;
 ```
 
 ### Reference Variables
 
 Reference variables are used to store object references, which point to objects in memory. Reference variables are declared using the class name of the object they reference, followed by the variable name, and optionally, an initial value. For example, to declare a reference variable named "myObject" that refers to an instance of the String class, you would write:
-```
+```java
 String myObject = new String("Hello, World!");
 ```
 In this example, the new keyword creates a new instance of the String class, and the reference variable myObject points to this new object.
@@ -82,7 +82,7 @@ The scope of a variable determines where it can be accessed in a program. In Jav
     
 ### Variable Naming Conventions
 It's important to follow naming conventions when naming variables in Java. Variable names should be descriptive, concise, and follow a standard naming convention. In Java, the standard convention for naming variables is to use camelCase, where the first word is in lowercase and the first letter of each subsequent word is capitalized. For example:
-```
+```java
 int studentCount;
 String customerName;
 ```
