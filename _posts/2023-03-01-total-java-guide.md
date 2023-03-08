@@ -195,3 +195,55 @@ Here are some best practices to consider when it comes to variables in Java:
 - Use data types that are appropriate for the data you are storing: Choose data types that are appropriate for the data you are storing. For example, use String for text data, and use collections (e.g. List, Map) for storing multiple values.
 
 By following these best practices, you can write more readable, maintainable, and reliable code in Java.
+
+## Operators
+Java has several types of operators that can be used to perform different types of operations on variables and values. Here's an overview of the most common operators in Java:
+
+### Arithmetic operators
+These operators are used to perform basic mathematical operations on numeric values. The arithmetic operators in Java are:
+
+    + (addition)
+    - (subtraction)
+    * (multiplication)
+    / (division)
+    % (modulus, returns the remainder of a division operation)
+
+### Assignment operators
+These operators are used to assign a value to a variable. The assignment operators in Java are:
+
+    = (simple assignment)
+    += (addition assignment)
+    -= (subtraction assignment)
+    *= (multiplication assignment)
+    /= (division assignment)
+    %= (modulus assignment)
+
+### Comparison operators
+These operators are used to compare two values and return a Boolean value (true or false) depending on the result of the comparison. The comparison operators in Java are:
+
+    == (equal to)
+    != (not equal to)
+    > (greater than)
+    < (less than)
+    >= (greater than or equal to)
+    <= (less than or equal to)
+
+### Logical operators
+These operators are used to combine Boolean values and return a Boolean result. The logical operators in Java are:
+
+    && (logical AND, returns true if both operands are true)
+    || (logical OR, returns true if either operand is true)
+    ! (logical NOT, returns the opposite of the operand's value)
+
+### Bitwise operators
+These operators are used to perform bitwise operations on integer values. The bitwise operators in Java are:
+
+    & (bitwise AND)
+    | (bitwise OR)
+    ^ (bitwise XOR, returns 1 if the bits are different, 0 if they are the same)
+    ~ (bitwise NOT, returns the complement of the operand)
+    << (left shift, shifts the bits to the left)
+    >> (signed right shift, shifts the bits to the right and preserves the sign bit)
+    >>> (unsigned right shift, shifts the bits to the right and fills the leftmost bits with zeroes)
+
+These are the most common operators in Java, but there are other operators as well, such as the conditional operator (?:) and the instanceof operator. It's important to understand how these operators work and how to use them effectively in your Java programs.
