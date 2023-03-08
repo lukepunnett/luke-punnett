@@ -277,22 +277,20 @@ variable = (condition) ? value1 : value2;
 ```
 
 Conditionals are a type of control structure in programming that allow you to execute different code blocks based on certain conditions. In Java, the most common conditional statement is the if-else statement, which has the following syntax:
-
-sql
-
+```
 if (condition) {
   // code to execute if the condition is true
 } else {
   // code to execute if the condition is false
 }
+```
 
 The condition in the if statement is typically a Boolean expression that evaluates to true or false. If the condition is true, the code block inside the if statement is executed. If the condition is false, the code block inside the else statement is executed (if there is one).
 
 In addition to the if-else statement, Java also supports a shorthand version of the if statement called the ternary operator. It has the following syntax:
-
-css
-
+```
 variable = (condition) ? value1 : value2;
+```
 
 This is useful when you want to assign a value to a variable based on a condition. If the condition is true, the variable is assigned the value of value1. If the condition is false, the variable is assigned the value of value2.
 
@@ -311,7 +309,7 @@ if (condition1) {
 ```
 
 In addition to if-else statements, Java also supports switch statements, which allow you to execute different code blocks based on the value of a variable or expression. Here's an example of a switch statement:
-
+```
 switch (expression) {
   case value1:
     // code to execute if expression equals value1
@@ -323,5 +321,6 @@ switch (expression) {
     // code to execute if expression does not match any of the cases above
     break;
 }
+```
 
 In summary, conditionals are an important type of control structure in Java that allow you to execute different code blocks based on certain conditions. By understanding how to use if-else statements, ternary operators, nested if-else statements, and switch statements, you can write more efficient and readable code.
