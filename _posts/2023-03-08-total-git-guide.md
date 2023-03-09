@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Total GIT Guide
-description: Ipsum dolor sit amet
+description: A guide covering nearly everything you need to know about GIT - draft.
 image: assets/images/pic03.jpg
 ---
 
