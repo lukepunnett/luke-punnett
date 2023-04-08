@@ -324,3 +324,146 @@ switch (expression) {
 ```
 
 In summary, conditionals are an important type of control structure in Java that allow you to execute different code blocks based on certain conditions. By understanding how to use if-else statements, ternary operators, nested if-else statements, and switch statements, you can write more efficient and readable code.
+
+### Java Methods
+#### Java Method Basics
+
+Methods are blocks of code that perform a specific task, and they are executed when they are called upon by other parts of a program.
+
+Here are the main components of a Java method:
+
+    Method Signature: This includes the access modifier (public, private, protected), the return type (void, int, String, etc.), the method name, and the parameter list (if any).
+
+    Method Body: This is where the actual code that performs the task is written.
+
+Here's an example of a basic method:
+```
+public void printMessage(String message) {
+  System.out.println(message);
+}
+```
+In this method, the access modifier is "public", the return type is "void" (meaning the method doesn't return anything), the method name is "printMessage", and the parameter is a String called "message". The method body simply prints out the message passed to it using the System.out.println method.
+
+To call this method, you would simply write:
+```
+printMessage("Hello, world!");
+```
+And the output would be:
+```
+Hello, world!
+```
+Java also supports methods with a return value. Here's an example:
+```
+public int addNumbers(int a, int b) {
+  return a + b;
+}
+```
+In this method, the return type is "int" (meaning the method returns an integer), the method name is "addNumbers", and the parameters are two integers called "a" and "b". The method body simply adds the two integers together and returns the result.
+
+To call this method, you would write:
+```
+int result = addNumbers(5, 7);
+System.out.println(result);
+```
+And the output would be:
+```
+12
+```
+#### Access Modifiers
+
+In Java, access modifiers determine the level of access that a class, method, or variable has to other parts of the program. There are four access modifiers in Java:
+
+    Public
+    Protected
+    Default (also known as package-private)
+    Private
+
+Let's take a closer look at each one:
+
+    Public: A public class, method, or variable can be accessed from anywhere in the program. This means that any part of the program can create an instance of a public class, call a public method, or access a public variable. Here's an example:
+    ```
+    public class MyClass {
+  public int myPublicVariable = 10;
+
+  public void myPublicMethod() {
+    // Code goes here
+  }
+}
+```
+In this example, the MyClass class is declared as public, which means it can be accessed from anywhere in the program. The myPublicVariable variable and myPublicMethod() method are also declared as public, which means they can be accessed from anywhere in the program as well.
+
+    Protected: A protected class, method, or variable can be accessed from within the same package (group of classes in the same directory) or from a subclass (a class that inherits from another class). This means that any class in the same package as a protected class, or any subclass of a protected class, can access its protected members. Here's an example:
+    ```
+    public class MyClass {
+  protected int myProtectedVariable = 10;
+
+  protected void myProtectedMethod() {
+    // Code goes here
+  }
+}
+    ```
+    Sure, I'd be happy to teach you about Java access modifiers!
+
+In Java, access modifiers determine the level of access that a class, method, or variable has to other parts of the program. There are four access modifiers in Java:
+
+    Public
+    Protected
+    Default (also known as package-private)
+    Private
+
+Let's take a closer look at each one:
+
+    Public: A public class, method, or variable can be accessed from anywhere in the program. This means that any part of the program can create an instance of a public class, call a public method, or access a public variable. Here's an example:
+
+csharp
+
+public class MyClass {
+  public int myPublicVariable = 10;
+
+  public void myPublicMethod() {
+    // Code goes here
+  }
+}
+
+In this example, the MyClass class is declared as public, which means it can be accessed from anywhere in the program. The myPublicVariable variable and myPublicMethod() method are also declared as public, which means they can be accessed from anywhere in the program as well.
+
+    Protected: A protected class, method, or variable can be accessed from within the same package (group of classes in the same directory) or from a subclass (a class that inherits from another class). This means that any class in the same package as a protected class, or any subclass of a protected class, can access its protected members. Here's an example:
+
+csharp
+
+public class MyClass {
+  protected int myProtectedVariable = 10;
+
+  protected void myProtectedMethod() {
+    // Code goes here
+  }
+}
+
+In this example, the myProtectedVariable variable and myProtectedMethod() method are declared as protected. This means that any class in the same package as MyClass, or any subclass of MyClass, can access its protected members.
+
+    Default: A default (or package-private) class, method, or variable can be accessed only from within the same package. This means that any class in the same package as a default member can access it, but classes in other packages cannot. Here's an example:
+    ```
+    class MyClass {
+  int myDefaultVariable = 10;
+
+  void myDefaultMethod() {
+    // Code goes here
+  }
+}
+```
+In this example, the MyClass class, myDefaultVariable variable, and myDefaultMethod() method are all declared without an access modifier, which means they are default members. This means that they can only be accessed from within the same package.
+
+    Private: A private class, method, or variable can be accessed only from within the same class. This means that no other class, even one in the same package or subclass, can access its private members. Here's an example:
+
+    ```
+    public class MyClass {
+  private int myPrivateVariable = 10;
+
+  private void myPrivateMethod() {
+    // Code goes here
+  }
+}
+    ```
+In this example, the myPrivateVariable variable and myPrivateMethod() method are declared as private. This means that they can only be accessed from within the MyClass class.
+
+These are the four access modifiers in Java. By using these access modifiers, you can control the level of access that classes, methods, and variables have to other parts of your program.
