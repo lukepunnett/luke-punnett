@@ -123,7 +123,7 @@ In Java, variable names follow similar rules to those in other programming langu
 
 For example, a variable representing a person's age could be named "personAge" or "ageOfPerson" in Java, using camelCase convention. A constant value for the speed of light could be named "SPEED_OF_LIGHT" using uppercase letters and underscores to separate words.
 
-### Reserverd or Keywords in Java
+### Reserved or Keywords in Java
 
 Java keywords are reserved words in the Java programming language that have a specific meaning and cannot be used as identifiers, such as variable names, class names, or method names. These keywords are used to define the structure and behavior of Java programs, and they have a special meaning in the Java language.
 
