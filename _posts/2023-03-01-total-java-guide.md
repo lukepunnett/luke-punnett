@@ -77,15 +77,15 @@ In this example, the new keyword creates a new instance of the String class, and
 
 In Java, primitive types and reference types (also known as objects) are handled differently in memory. Here are the main differences:
 
-    Memory allocation: Primitive types are stored on the stack, whereas reference types are stored on the heap. When a primitive type is declared, memory is allocated on the stack at the point where the variable is defined. When a reference type is declared, a memory address (i.e. a reference) is allocated on the stack, but the object itself is allocated on the heap.
+- Memory allocation: Primitive types are stored on the stack, whereas reference types are stored on the heap. When a primitive type is declared, memory is allocated on the stack at the point where the variable is defined. When a reference type is declared, a memory address (i.e. a reference) is allocated on the stack, but the object itself is allocated on the heap.
 
-    Size: Primitive types have a fixed size that is determined by the type, whereas reference types have a variable size that depends on the object being stored.
+- Size: Primitive types have a fixed size that is determined by the type, whereas reference types have a variable size that depends on the object being stored.
 
-    Default values: Primitive types have default values (e.g. 0 for int, false for boolean) if they are not initialized explicitly, whereas reference types have a default value of null if they are not initialized explicitly.
+- Default values: Primitive types have default values (e.g. 0 for int, false for boolean) if they are not initialized explicitly, whereas reference types have a default value of null if they are not initialized explicitly.
 
-    Passing by value vs. passing by reference: When a primitive type is passed as an argument to a method, a copy of its value is passed (i.e. passed by value), whereas when a reference type is passed as an argument to a method, a copy of the reference (i.e. the memory address) is passed (i.e. passed by reference). This means that when the method modifies the object, the changes are reflected outside the method.
+- Passing by value vs. passing by reference: When a primitive type is passed as an argument to a method, a copy of its value is passed (i.e. passed by value), whereas when a reference type is passed as an argument to a method, a copy of the reference (i.e. the memory address) is passed (i.e. passed by reference). This means that when the method modifies the object, the changes are reflected outside the method.
 
-    Garbage collection: Objects on the heap are subject to garbage collection, whereas primitive types are not. When an object is no longer referenced by any variables or objects, it becomes eligible for garbage collection, and the memory it occupied is released by the JVM.
+- Garbage collection: Objects on the heap are subject to garbage collection, whereas primitive types are not. When an object is no longer referenced by any variables or objects, it becomes eligible for garbage collection, and the memory it occupied is released by the JVM.
 
 These differences between primitive and reference types can affect the performance and behavior of your Java program, so it's important to understand them and use them appropriately.
 
